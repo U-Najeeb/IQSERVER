@@ -21,7 +21,7 @@ const liveDrivers = new Map();
 // SOCKET SERVER
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: ["*"],
   },
 });
 
